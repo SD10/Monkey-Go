@@ -18,6 +18,13 @@ const(
 	// Operators
 	ASSIGN = "="
 	PLUS = "+"
+	MINUS = "-"
+	BANG = "!"
+	ASTERISK = "*"
+	SLASH = "/"
+
+	LT = "<"
+	GT = ">"
 
 	// Delimiters
 	COMMA = ","
@@ -31,11 +38,21 @@ const(
 	// Keywords
 	FUNCTION = "FUNCTION"
 	LET = "LET"
+	TRUE = "TRUE"
+	FALSE = "FALSE"
+	IF = "IF"
+	ELSE = "ELSE"
+	RETURN = "RETURN"
 )
 
 var keywords = map[string]TokenType {
 	"fn": FUNCTION,
 	"let": LET,
+	"if": IF, 
+	"else": ELSE,
+	"true": TRUE, 
+	"false": FALSE,
+	"return": RETURN,
 }
 
 // LookupIdent ...
