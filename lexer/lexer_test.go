@@ -2,7 +2,7 @@ package lexer
 
 import (
 	"testing"
-	"monkey/token"
+	"github.com/sd10/Monkey-Go/token"
 )
 
 // Important to note that the lexer isn't concerned with code errors

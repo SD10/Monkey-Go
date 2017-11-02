@@ -4,8 +4,8 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"monkey/token"
-	"monkey/lexer"
+	"github.com/sd10/Monkey-Go/token"
+	"github.com/sd10/Monkey-Go/lexer"
 )
 
 // PROMPT ...

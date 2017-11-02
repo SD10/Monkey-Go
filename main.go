@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 	"os/user"
-	"monkey/repl"
+	"github.com/sd10/Monkey-Go/repl"
 )                                                                                                                             
 
 func main() {

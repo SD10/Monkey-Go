@@ -1,6 +1,6 @@
 package ast
 
-import "monkey/token"
+import "github.com/sd10/Monkey-Go/token"
 
 type Node interface {
 	TokenLiteral() string
